@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="registraion.css">
+    </head>
+    <body>
+         <ul>
+            <div class="logo">BusTics.BD </div>
+            <li><a>About</a></li>
+            <li><a href="Registration_page.html">Registration</a></li>
+            <li><a href="login_page.html">Login</a></li>
+            <li><a href="Home_page.html">Home</a></li>
+        </ul>
+        <marquee >***All over Bangladesh, our service is available.***</marquee>
+        
+        
+<form action="connect_data.php" method="POST">
+  <div class="container">
+      
+      <h1>Registeration Form</h1>
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label>Gender :</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>Phone :</label>    
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" name="currentaddress" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" required>  
+    <button type="submit" class="registerbtn" >Register</button>    
+    
+    <p>Already have an account? <a href="login_page.html">Sign in</a>.</p>
+      
+        <br><br>
+      </div>
+</form>
+        <footer style="background-color: #f0f8ff; width: 100%; text-align: center;">  
+        <h3>Md. Nuruzzaman</h3>  
+        <p>© Copyright 2020.</p>
+    </footer> 
+    </body>
+</html>

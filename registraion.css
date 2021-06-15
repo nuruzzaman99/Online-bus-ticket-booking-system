@@ -1,0 +1,91 @@
+body{
+    margin: 0;  
+    padding: 0;
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    text-align: center;
+    font-size: 60px;
+    color: #FF5733;
+    font-family:Lucida Bright;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #0A62C6;
+  color: white;
+}
+marquee{
+    font-size:30px;
+    width:100%;
+    background-color:white;
+}
+
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 46px;
+}
+.container {
+    font-family: Calibri, Helvetica, sans-serif;
+     background-color: rgba(0,0,0, 0.7);
+    width: 45%;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 50px;
+    border-radius: 35px;
+    color: white;
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color:#21D8F5;  
+  outline: none;  
+} 
+.registerbtn {
+    width: 103%;
+    background-color: #008302;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;  
+}  
+.registerbtn:hover {
+    background-color:#21D8F5;
+    opacity: 100;  
+}

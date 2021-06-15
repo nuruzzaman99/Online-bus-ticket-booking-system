@@ -1,0 +1,99 @@
+body{  
+    margin: 0;  
+    padding: 0;
+    background-image: url('ba_h_p.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: #DAF7A6;
+}
+.logo{
+    text-align: center;
+    font-size: 60px;
+    color: #FF5733;
+    font-family:Lucida Bright;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #0A62C6;
+  color: white;
+}
+marquee{
+    font-size:30px;
+    width:100%;
+    background-color:white;
+}
+button {   
+       background-color: #159E17;   
+       width: 382px;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+}   
+form {   
+    border: 3px solid #f1f1f1;
+    
+}   
+select, input[type=text], input[type=password] {   
+    width: 382px;    
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1; 
+}  
+button:hover {
+    background-color: #0A62C6;
+    color: white;
+}   
+.cancelbtn {   
+    width: 382px;;   
+    padding: 10px 18px;  
+    margin: 5px 0 22px 0;
+    background-color:#ED6060;
+}
+.container {
+    background-color: rgba(0,0,0, 0.5);
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 60px;
+    border-radius: 15px ;
+    color: white;
+}
+.font{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}

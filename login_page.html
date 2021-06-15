@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+         <ul>
+            <div class="logo">BusTics.BD </div>
+            <li><a>About</a></li>
+            <li><a href="Registration_page.html">Registration</a></li>
+            <li><a href="login_page.html">Login</a></li>
+            <li><a href="Home_page.html">Home</a></li>
+        </ul>
+        <marquee >***All over Bangladesh, our service is available.***</marquee>
+        <form action="login_data.php" method="POST">
+             <div class="container">
+                <div class = "font">Login Page</div>
+                <br>
+                    <label>Email : </label>
+                 <br>
+                    <input type="text" placeholder="Enter Email" name="uname" required>
+                 <br>
+                    <label>Password : </label>
+                 <br>
+                    <input type="password" placeholder="Enter Password" name="pass" required>
+                 <br>
+                 <label>Account type : </label>
+                 <select name="loginas">  
+                    <option value="member">User</option>
+                    <option value="admin">Admin</option>
+                 </select>
+                 <br>
+                    <input type="checkbox"> Remember me
+                 <br>
+                    <button type="submit">Login</button>           
+                 <br>
+                    <button type="button" class="cancelbtn"> Cancel</button>
+                 <br>
+                    Forgot <a href="#"> password? </a>
+                 <br>
+                 <p>Create an account? <a href="Registration_page.html">Sign up</a>.</p>
+               </div>
+        </form>
+        <footer style="background-color: #f0f8ff; width: 100%; text-align: center;">  
+        <h3>Md. Nuruzzaman</h3>  
+        <p>© Copyright 2020.</p>
+    </footer> 
+    </body>
+</html>
